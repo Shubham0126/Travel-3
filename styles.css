@@ -1,0 +1,29 @@
+.list-item{
+    padding: 10px;
+    margin: 15px 30px;
+}
+hr{
+    width: 90%;
+    margin: 0 auto;
+}
+.list-item:hover{
+    background-color: rgb(5, 36, 36);
+    border-radius: 14px;
+    color: white!important;
+}
+
+.container-home{
+    background-image: linear-gradient(rgba(0,0,0,0.5) , rgba(0,0,0,0.5)),url('images/2.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+}
+.card-cover {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .06);
+}
