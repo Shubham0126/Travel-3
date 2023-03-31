@@ -44,6 +44,14 @@ hr{
     margin-top: 0;
 }
 
+/* Place Page */
+.container-place{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)) , url('images/6.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: auto;
+}
 /* About page */
 .container-about{
     background-image:linear-gradient(rgba(0,0,0,0.6) , rgba(0,0,0,0.6)), url('images/3.webp');
@@ -57,6 +65,12 @@ hr{
 }
 .about p{
     text-align: justify;
+}
+
+/* Privacy Page */
+.privacy-container{
+    text-align: justify;
+    padding: 20px 20%;
 }
 
 @media screen and (max-width:500px){
