@@ -27,3 +27,43 @@ hr{
     transform: scale(1.05);
     box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .06);
 }
+
+
+/* contact page */
+.container-contact{
+    background-image:linear-gradient(rgba(0,0,0,0.6) , rgba(0,0,0,0.6)), url('images/1.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: auto;
+}
+.container-contact h1{
+    font-size: 4rem;
+}
+.contact-link{
+    margin-top: 0;
+}
+
+/* About page */
+.container-about{
+    background-image:linear-gradient(rgba(0,0,0,0.6) , rgba(0,0,0,0.6)), url('images/3.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 40vh;
+}
+.container-about h1{
+    font-size: 4rem;
+}
+.about p{
+    text-align: justify;
+}
+
+@media screen and (max-width:500px){
+    .container-about h1{
+        font-size: 3rem;
+    }
+    .container-contact h1{
+        font-size: 3rem;
+    }
+}
