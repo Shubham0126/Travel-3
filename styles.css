@@ -17,6 +17,7 @@ hr{
     background-repeat: no-repeat;
     background-size: cover;
     height: auto;
+    padding-top: 5%;
 }
 .card-cover {
     background-repeat: no-repeat;
@@ -36,6 +37,7 @@ hr{
     background-size: cover;
     background-position: center center;
     height: auto;
+    padding-top: 8%;
 }
 .container-contact h1{
     font-size: 4rem;
@@ -51,6 +53,7 @@ hr{
     background-size: cover;
     background-position: center center;
     height: auto;
+    padding: 5%;
 }
 /* About page */
 .container-about{
@@ -59,6 +62,7 @@ hr{
     background-size: cover;
     background-position: center center;
     height: 40vh;
+    padding-top: 5%;
 }
 .container-about h1{
     font-size: 4rem;
@@ -66,13 +70,32 @@ hr{
 .about p{
     text-align: justify;
 }
-
+/* FAQs Page */
+.faq-container{
+    padding-top: 5%;
+}
 /* Privacy Page */
 .privacy-container{
     text-align: justify;
-    padding: 20px 20%;
+    padding: 8% 10% 20px;
 }
 
+/* Terms and Conditions */
+.terms-container{
+    text-align: justify;
+    padding: 5%;
+}
+@media screen and (max-width:768px){
+    .terms-container{
+        padding: 15% 10%;
+    }
+    .privacy-container{
+        padding: 20% 10%;
+    }
+    .container-contact{
+        padding-top: 14%;
+    }
+}
 @media screen and (max-width:500px){
     .container-about h1{
         font-size: 3rem;
